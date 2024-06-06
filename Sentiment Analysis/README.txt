@@ -8,3 +8,5 @@ preprocessing is done using the regex of the form pattern_(*) and WordNetLemmati
 	i remove the hyperlinks, user names, and the signs for hashtag( not the whole hashtag as it might contain usefull information), and the sign for retweets
 
 for feature extraction and model i did a few tries the best result were shown with logstic regression for model and with BoW of unigrams and bigrams for feature extraction
+
+Notice that in the docstring in the file model there is a training of a RandomForest model in case your intrested in trying it.
